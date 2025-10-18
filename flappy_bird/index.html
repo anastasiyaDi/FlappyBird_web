@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird - Canvas Version</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Flappy Bird</h1>
+        <div class="score-container">
+            <div class="score">Текущий счет: <span id="current-score">0</span></div>
+            <div class="best-score">Лучший результат: <span id="best-score">0</span></div>
+        </div>
+        <canvas id="gameCanvas" width="360" height="640"></canvas>
+        <div class="controls">
+            <button id="restartBtn" class="game-btn">Начать игру</button>
+            <button id="soundBtn" class="game-btn">Звук</button>
+        </div>
+        <div class="instructions">
+            <p>Кликни/Тапни или нажми ПРОБЕЛ чтобы лететь</p>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
